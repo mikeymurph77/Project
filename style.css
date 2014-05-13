@@ -1,7 +1,51 @@
-h1 {
-	color: blue;
+html {
+	background: url(file:///Users/metis/project/background_image_wood.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
 }
 
-p {
-	color: red;
+.container1 {
+	float: left;
+	display: inline-block;
+}
+
+#name_quote {
+	background-color: white;
+	border-radius: 15px;
+	display: inline-block;
+	width: 400px;
+	opacity: 0.5;
+	padding: 10px;
+	margin-left: 95px;
+	margin-top: 100px;
+	float: left;
+}
+
+#bio {
+	background-color: white;
+	border-radius: 15px;
+	display: block;
+	width: 400px;
+	opacity: 0.5;
+	padding: 10px;
+	margin-left: 95px;
+	margin-top: 100px;
+	float: left;
+}
+
+
+
+#photo {
+	background: url(file:///Users/metis/project/photo1.jpg);
+	width: 250px;
+	height: 250px;
+	border: 12px solid white;
+	border-radius: 500px;
+	display: inline-block;
+	float: right;
+	margin-right: 95px;
+	margin-top: 100px;
+
 }
