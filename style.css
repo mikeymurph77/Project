@@ -1,51 +1,97 @@
 html {
-	background: url(file:///Users/metis/project/background_image_wood.jpg) no-repeat center center fixed;
+	background: url(file:///Users/metis/project/background5.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
     background-size: cover;
 }
 
-.container1 {
+p{
+	font-size: 22px;
+}
+
+/* Left Container Styles */
+
+#left_container {
 	float: left;
+	width: 250px;
+	height: 600px;
 	display: inline-block;
+	margin: 20px 20px 20px 80px;
+
+}
+
+#photo {
+	position: absolute;
+	background: url(file:///Users/metis/project/cutout_cas_gradient2.jpg);
+	width: 250px;
+	height: 250px;
+	border: 10px solid #b3b3b3;
+	border-radius: 250px;
+	display: inline;
+	float: left;
+}
+
+#name_social {
+	position: absolute;
+	width: 250px;
+	height: 405px;
+	background-color: #dbdbdb;
+	border: 10px solid #b3b3b3;
+	border-radius: 20px;
+	float: left;
+	margin-top: 115px;
 }
 
 #name_quote {
-	background-color: white;
-	border-radius: 15px;
-	display: inline-block;
-	width: 400px;
-	opacity: 0.5;
-	padding: 10px;
-	margin-left: 95px;
-	margin-top: 100px;
-	float: left;
-}
-
-#bio {
-	background-color: white;
-	border-radius: 15px;
-	display: block;
-	width: 400px;
-	opacity: 0.5;
-	padding: 10px;
-	margin-left: 95px;
-	margin-top: 100px;
-	float: left;
-}
-
-
-
-#photo {
-	background: url(file:///Users/metis/project/photo1.jpg);
+	padding: 150px 0px 0px 0px;
+	text-align: center;
 	width: 250px;
-	height: 250px;
-	border: 12px solid white;
-	border-radius: 500px;
-	display: inline-block;
-	float: right;
-	margin-right: 95px;
-	margin-top: 100px;
+	border-top-left-radius: 140px; 
+	border-top-right-radius: 140px; 
+	border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px;
+	position: absolute;
+}
 
+#social_icons{
+	width: 250px;
+	height: 55px;
+	position: absolute;
+}
+
+/* Right Container Styles */
+
+#right_container{
+	float: left;
+	margin: 150px 20px 20px 20px;
+	width: 600px;
+	height: 400px;
+	display: inline-block;
+}
+
+#aboutMe {
+	position: absolute;
+	background-color: #dbdbdb;
+	border: 10px solid #b3b3b3;
+	border-radius: 15px;
+	padding: 0px 20px 20px 20px;
+	display: inline-block;
+	width: 540px;
+	height: 200px;
+	float: right;
+}
+
+#logos{
+	position: absolute;
+	background-color: #5e5e5e;
+	border: 10px solid #b3b3b3;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	width: 540px;
+	float: right;
+	/* How do I make this div go beneath the aboutMe Div w/o using margin-top? */
+	margin-top: 260px;
 }
